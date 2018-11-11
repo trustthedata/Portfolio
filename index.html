@@ -1,182 +1,319 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Big Picture by HTML5 UP
+
+
+
+
+
+  html5up.net | @ajlkn
+
+
+
+
+
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
 
-<head>
-	<title>Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <h1>Herbert Hodgson</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body class="is-preload">
+    <!-- Home -->
+    <section id="home" class="main style1 dark fullscreen">
+      <div class="content">
+        <header>
+          <h2>Herbert Hodgson</h2>
+          <p>Software Engineer</p>
+        </header>
+      </div>
+    </section>
 
-	<!-- Header -->
-	<header id="header">
-		<h1>Herbert Hodgson</h1>
-		<nav>
-			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#experience">Experience</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+    <!-- About -->
+    <section id="about" class="main style2 right dark fullscreen">
+      <div class="content box style2">
+        <header><h2>About</h2></header>
+        <p>
+          I'm a Software Engineer passionate about helping create and apply
+          technological solutions to current healthcare problems, ultimately
+          making a positive difference on patient outcomes, access to care, more
+          efficient workflows, etc.
+        </p>
+        <br />
+        <p>
+          Currently specializing in the MERN stack, in addition to
+          Python/Django/SQL, but willing and able to learn quickly technologies
+          I have not worked with yet.
+        </p>
+      </div>
+      <a href="#experience" class="button style2 down anchored">Next</a>
+    </section>
 
-	<!-- Home -->
-	<section id="home" class="main style1 dark fullscreen">
-		<div class="content">
-			<header>
-				<h2>Herbert Hodgson</h2>
-				<p>Software Engineer</p>
-			</header>
-		</div>
-	</section>
+    <!-- Experience -->
+    <section id="experience" class="main style2 left dark fullscreen">
+      <div class="content box style2">
+        <header><h2>Experience</h2></header>
+        <p>
+          <strong>LANGUAGES:</strong> JavaScript, Python, C <br />
+          <strong>TOOLS & TECHNOLOGIES:</strong> HTML5, CSS3, ES6+, React,
+          Redux, MongoDB, Node.js, Express, Django, PosgreSQL, Jest, Enzyme,
+          Git, Heroku
+        </p>
+        <p>
+          <strong>Lambda School · Full Stack Developer </strong><br />
+          • Gained experience working with clients and understanding client
+          demands by collaborating on full life cycle projects. <br />
+          • Utilized agile software development and Git workflow on all
+          projects. <br />
+          • Completed projects using: React, Redux, Node.js, Express, MongoDB,
+          JWTs, Jest/Enzyme, C, Python, Django, & SQL. <br />
+          • Hands on experience with client and server testing, pair
+          programming, deploying apps using Heroku/mLab/Netlify, and CS
+          fundamentals. <br />
+        </p>
+      </div>
+      <a href="#projects" class="button style2 down anchored">Next</a>
+    </section>
 
-	<!-- About -->
-	<section id="about" class="main style2 right dark fullscreen">
-		<div class="content box style2">
-			<header>
-				<h2>About</h2>
-			</header>
-			<p>I'm a Software Engineer interested in combining my knowledge and experience
-				in healthcare, business, and technology to create products that
-				make a positive difference on patient outcomes,
-				access to care, and more efficient workflows.</p>
-		</div>
-		<a href="#experience" class="button style2 down anchored">Next</a>
-	</section>
+    <!-- Projects -->
+    <section id="projects" class="main style3 primary">
+      <div class="content">
+        <header><h2>Projects</h2></header>
+        <div class="project-title">
+          <h3>
+            <a
+              href="https://autoreviewforyou.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Auto Review For You</a
+            >
+          </h3>
+          <h3>
+            <a
+              href="https://lambda-notes-application.netlify.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Lambda Notes</a
+            >
+          </h3>
+        </div>
+        <!-- Gallery -->
+        <div class="gallery">
+          <!-- <div class=project-images> -->
+          <article class="from-left">
+            <a href="images/fulls/Auto Review For You.png" class="image fit"
+              ><img
+                src="images/thumbs/Auto Review For You.png"
+                title="Auto Review For You!"
+                alt=""
+            /></a>
+            <div>
+              <p>
+                App designed to bring people who love cars together to compare
+                and gain insight into cars they may want in the future or to
+                share experiences from cars they had in the past, integrating
+                with Stripe, databases.one Car API, and Cloudinary.
+              </p>
+              <p>Tech: React, Node, Express, MongoDB, Jest/Enzyme, Heroku</p>
+            </div>
+          </article>
+          <article class="from-right">
+            <a href="images/fulls/Lambda Notes.png" class="image fit"
+              ><img
+                src="images/thumbs/Lambda Notes.png"
+                title="Lambda Notes"
+                alt=""
+            /></a>
+            <p>
+              Note taking app that allows people to create personal notes,
+              search for a specific note, and filter notes by assigned tag.
+            </p>
 
-	<!-- Experience -->
-	<section id="experience" class="main style2 left dark fullscreen">
-		<div class="content box style2">
-			<header>
-				<h2>Experience</h2>
-			</header>
-			<p>
-				<strong>LANGUAGES:</strong> JavaScript, Python, C <br />
-				<strong>TOOLS & TECHNOLOGIES:</strong> HTML5, CSS, React, Redux, MongoDB, Node.js, Express, Django, PosgreSQL,
-				Jest,
-				Enzyme, Git, Heroku
-			</p>
-			<p><strong>Lambda School · Full Stack Developer </strong><br />
-				• Completed projects using: React, Redux, Node.js, Express, MongoDB, JWT, Jest/Enzyme, C, Python, and Django. <br />
-				• Utilized agile software development and Git workflow on all projects. <br />
-				• Hands on experience with client and server testing, pair programming, deployment using Heroku/Netlify, and CS
-				fundamentals. <br />
-				• Gained experience working with clients and understanding client demands by collaborating on full life cycle
-				projects. <br /></p>
-		</div>
-		<a href="#projects" class="button style2 down anchored">Next</a>
-	</section>
+            <p>Tech: React, Redux, Django, PostgreSQL, Netlify, Heroku</p>
+          </article>
 
-	<!-- Projects -->
-	<section id="projects" class="main style3 primary">
-		<div class="content">
-			<header>
-				<h2>Projects</h2>
-			</header>
-			<div class="project-title">
-				<h3><a href="https://autoreviewforyou.com">Auto Review For You</a></h3>
-				<h3><a href="https://lambda-notes-application.netlify.com">Lambda Notes</a></h3>
-			</div>
-			<!-- Gallery  -->
-			<div class="gallery">
-				<!-- <div class=project-images> -->
-				<article class="from-left">
-					<a href="images/fulls/Auto Review For You.png" class="image fit"><img src="images/thumbs/Auto Review For You.png"
-						 title="Auto Review For You!" alt="" /></a>
-					<div>
-						<p>App designed to bring people who love cars together to compare and gain insight into cars they may want in
-							the
-							future or to share experiences from cars they had in the past, integrating with Stripe, databases.one Car API,
-							and
-							Cloudinary.</p>
-						<p>Tech: React, Node, Express, MongoDB, Jest/Enzyme, Heroku</p>
-					</div>
-				</article>
-				<article class="from-right">
-					<a href="images/fulls/Lambda Notes.png" class="image fit"><img src="images/thumbs/Lambda Notes.png" title="Lambda Notes"
-						 alt="" /></a>
-					<p>Note taking app that allows people to create personal notes, search for a specific note, and filter notes by
-						assigned tag.
-						<p>Tech: React, Redux, Django, PostgreSQL, Netlify, Heroku
-				</article>
-				<!-- <article class="from-left">
-						<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
-					</article> -->
-				<!-- <article class="from-right">
-						<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
-					</article>
-					<article class="from-left">
-						<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
-					</article>
-					<article class="from-right">
-						<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
-					</article> -->
-			</div>
-			<!-- </div> -->
-		</div>
-	</section>
+          <!--
+            <article class="from-left">
 
-	<!-- Contact -->
-	<section id="contact" class="main style3 secondary">
-		<div class="content">
-			<header>
-				<h2>Contact</h2>
-			</header>
-			<div class="box">
-				<form action="https://formspree.io/herberthodgson@gmail.com" method="POST">
-					<div class="fields">
-						<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
-						<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
-						<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-					</div>
-					<ul class="actions special">
-						<li><input type="submit" value="Send Message" /></li>
-					</ul>
-				</form>
-			</div>
-		</div>
-	</section>
 
-	<!-- Footer -->
-	<footer id="footer">
 
-		<!-- Icons -->
-		<ul class="icons">
-			<li><a href="https://www.linkedin.com/in/herberthodgson/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-			<li><a href="https://www.github.com/trustthedata" class="icon fa-github"><span class="label">Github</span></a></li>
-			<li><a href="images/Herbert Hodgson.pdf" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
-			<li><a href="mailto:herberthodgson@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-		</ul>
 
-		<!-- Menu -->
-		<ul class="menu">
-			<li>&copy; Untitled</li>
-			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-		</ul>
+            	<a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a>
 
-	</footer>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
 
-</body>
 
+
+            </article>
+          -->
+          <!--
+            <article class="from-right">
+
+
+
+
+            	<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a>
+
+
+
+
+
+            </article>
+
+
+
+
+
+            <article class="from-left">
+
+
+
+
+
+            	<a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a>
+
+
+
+
+
+            </article>
+
+
+
+
+
+            <article class="from-right">
+
+
+
+
+
+            	<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+
+
+
+
+
+            </article>
+          -->
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="main style3 secondary">
+      <div class="content">
+        <header><h2>Contact</h2></header>
+        <div class="box">
+          <form
+            action="https://formspree.io/herberthodgson@gmail.com"
+            method="POST"
+          >
+            <div class="fields">
+              <div class="field half">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <div class="field half">
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+              <div class="field">
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows="6"
+                ></textarea>
+              </div>
+            </div>
+            <ul class="actions special">
+              <li><input type="submit" value="Send Message" /></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <!-- Icons -->
+      <ul class="icons">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/herberthodgson/"
+            class="icon fa-linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="label">Linkedin</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.github.com/trustthedata"
+            class="icon fa-github"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="label">Github</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="images/Herbert Hodgson.pdf"
+            class="icon fa-file-text-o"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="label">Resume</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:herberthodgson@gmail.com"
+            class="icon fa-envelope-o"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><span class="label">Email</span></a
+          >
+        </li>
+      </ul>
+
+      <!-- Menu -->
+      <ul class="menu">
+        <li>&copy; Untitled</li>
+        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
